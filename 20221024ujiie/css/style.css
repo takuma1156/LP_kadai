@@ -68,10 +68,16 @@
 }
 .news_main{
   list-style: none;
-  margin: 0 auto 50px 480px;
+  margin: 0 auto 50px 520px;
 }
 .news_list{
-  margin: 0 0 20px 0 ;
+  width: 60%;
+  padding: 20px;
+  margin: 0 0 15px 0 ;
+  border-top: solid 1px rgb(91, 91, 91);
+}
+.news_list:last-child{
+  border-bottom: solid 1px rgb(91, 91, 91);
 }
 .news_day{
   margin-right: 20px;
@@ -91,7 +97,7 @@
 }
 .about_title{
   margin: 0 auto;
-  width: 300px;
+  width: 500px;
   text-align: center;
 }
 .about_tag{
@@ -118,7 +124,7 @@
   width: 50%;
 }
 .service_title{
-  margin: 60px auto 50px 450px;
+  margin: 60px auto 50px 400px;
 }
 .service_tag{
   font-family: 'Fredoka One', cursive;
@@ -259,8 +265,8 @@
   border-top-left-radius: 15px;
 }
 .btn{
-  width:100%;
-  margin: 50px 750px;
+  width:20%;
+  margin: 50px auto;
   padding: 40px;
 }
 .btn_text{
@@ -286,7 +292,6 @@
 }
 .company_table{
   color: rgb(99, 99, 99);
-
   margin: 0 0 0 500px;
   width: 800px;
 }
@@ -335,13 +340,14 @@ th{
   color: darkorchid;
 }
 .line_btn {
-  width: 100%;
-  margin: 0 600px;
+  margin: 0 auto;
   padding: 40px;
   position: relative;
+  width: 20%;
 }
 
 .btnB_text {
+
   text-align: center;
   padding: 20px 70px;
   border-radius: 25px;
@@ -353,10 +359,10 @@ th{
   border-bottom: solid 6px #8f028f;
 }
 .mail{
-  width: 1.5%;
+  width: 8%;
   position: absolute;
   top: 35%;
-  left: 3%;
+  left: 25%;
 }
 .div_footer{
   margin-top: 30px;
@@ -367,8 +373,8 @@ th{
   display: inline-block;
   margin: 10px 620px;
 }
-
 a{
+  display: block;
   text-decoration: none;
   color: rgb(99, 99, 99);
 }
