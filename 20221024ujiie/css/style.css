@@ -305,7 +305,6 @@ th,td{
   border: 1px solid;
   border-color: rgb(99, 99, 99);
   font-size: 18px ;
-
 }
 th{
   text-align: left;
@@ -317,6 +316,7 @@ th{
 }
 .link_div{
   position: relative;
+  width: 100%;
 }
 .link_imgA{
   width: 100%;
