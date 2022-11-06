@@ -31,7 +31,7 @@
 .img_relative{
   margin: 0 0 0 auto;
   display: block;
-  width: 50%;
+  width: 45%;
 }
 .firstview_title{
   position: absolute;
@@ -55,14 +55,320 @@
 .middle{
   color: lightseagreen;
 }
-.new_info{
-  width: auto;
-}
 .news_ttl{
-  left: 30%;
+  margin: 0 auto 50px 550px;
 }
 .news{
-    font-family: 'Fredoka One', cursive;
-    color: darkorchid;
-      font-size: 18px;
+  font-family: 'Fredoka One', cursive;
+  color: darkorchid;
+  font-size: 18px;
+}
+.news_info{
+  color:slategray;
+}
+.news_main{
+  list-style: none;
+  margin: 0 auto 50px 480px;
+}
+.news_list{
+  margin: 0 0 20px 0 ;
+}
+.news_day{
+  margin-right: 20px;
+}
+.news_news{
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(255, 0, 166);
+  border-radius: 30px;
+  margin-right: 20px
+}
+.about{
+  background-color:rgb(239, 236, 236);
+  padding: 15px 0 0 0;
+}
+.about_title{
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+}
+.about_tag{
+  font-family: 'Fredoka One', cursive;
+  color: darkorchid;
+  font-size: 18px;
+}
+.about_text{
+  color: slategray;
+}
+.about_main{
+  max-width: 1400px;
+  width: 100%;
+  margin: 50px 0 0 500px;
+}
+.about_img{
+  display: block;
+  margin: 0 160px;
+  width: 50%;
+  float: right;
+
+}
+.img_about{
+  width: 50%;
+}
+.service_title{
+  margin: 60px auto 50px 450px;
+}
+.service_tag{
+  font-family: 'Fredoka One', cursive;
+  color: darkorchid;
+  font-size: 18px;
+}
+.service_info{
+  color: slategray;
+}
+.service_main{
+  max-width: 1000px;
+  margin: 30px 0 0 400px;
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.serviceA{
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-color: mediumvioletred;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+}
+.img_serviceA{
+
+  width: 40%;
+}
+.serviceA_ttl{
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.serviceA_text{
+  text-align: left;
+  margin: 0 50px;
+}
+.serviceB {
+  grid-column: 2/4;
+  grid-row: 1/1;
+  background-color: rgb(192, 116, 164);
+  color: white;
+  text-align: center;
+  padding: 30px 0px 30px 15px;
+}
+.img_serviceB {
+  width: 30%;
+  float: left;
+  vertical-align: middle;
+}
+
+.serviceB_ttl {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.serviceB_text {
+  text-align: left;
+  margin: 0 50px;
+}
+.serviceC {
+  grid-row: 2/2;
+  grid-column: 2/4;
+  background-color: rgb(188, 146, 173);
+  color: white;
+  text-align: center;
+  padding: 30px 0px 30px 15px;
+  float: right;
+}
+
+.img_serviceC {
+  width: 30%;
+  float: left;
+  vertical-align: middle;
+}
+
+.serviceC_ttl {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+.serviceC_text {
+  text-align: left;
+  margin: 0 50px;
+}
+.blog{
+  background-color: whitesmoke;
+  margin-top: 100px;
+  padding-top: 5px;
+}
+.blog_title {
+  margin: 60px auto 50px 400px;
+}
+.blog_tag {
+  font-family: 'Fredoka One', cursive;
+  color: darkorchid;
+  font-size: 18px;
+}
+.blog_info {
+  color: slategray;
+}
+.cards{
+  display: flex;
+  margin: 50px auto 0px 400px;
+}
+.card{
+  position: relative;
+  width: 25%;
+  margin: 0 50px 0 0;
+  outline: 10px solid whitesmoke;
+  background-color: white;
+  border-radius: 15px;
+}
+.card_image{
+  width: 100%;
+}
+.blog_text{
+  padding:15px 0;
+}
+.card_ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 0;
+}
+.tag{
+  padding: 5px;
+  object-fit: contain;
+  z-index: 0;
+  position: absolute;
+  color: white;
+  background-color: mediumvioletred;
+  font-weight: bold;
+  width: 20%;
+  font-size: 20px;
+  text-align: center;
+  border-top-left-radius: 15px;
+}
+.btn{
+  width:100%;
+  margin: 50px 750px;
+  padding: 40px;
+}
+.btn_text{
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: mediumvioletred;
+  background-color: white;
+  border: 2px solid mediumvioletred;
+  font-weight: bold;
+}
+.company_title{
+  margin: 60px auto 50px 500px;
+}
+.company_tag {
+  font-family: 'Fredoka One', cursive;
+  color: darkorchid;
+  font-size: 18px;
+}
+.company_info {
+  color: slategray;
+}
+.company_table{
+  color: rgb(99, 99, 99);
+
+  margin: 0 0 0 500px;
+  width: 800px;
+}
+table{
+  border-collapse: collapse;
+}
+th,td{
+  padding: 10px 0 ;
+  border: 1px solid;
+  border-color: rgb(99, 99, 99);
+  font-size: 18px ;
+
+}
+th{
+  text-align: left;
+  background-color: rgb(243, 243, 243);
+}
+.link{
+  display: flex;
+  margin: 100px 0 70px 150px;
+}
+.link_div{
+  position: relative;
+}
+.link_imgA{
+  width: 100%;
+}
+.link_text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 32px;
+}
+.inquiry{
+  text-align: center;
+  color: rgb(99, 99, 99);
+}
+.line{
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  color: darkorchid;
+}
+.line_btn {
+  width: 100%;
+  margin: 0 600px;
+  padding: 40px;
+  position: relative;
+}
+
+.btnB_text {
+  text-align: center;
+  padding: 20px 70px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  background:linear-gradient(90deg,#eb77eb,
+    #ee03ee);
+  box-shadow: 0px 2px 2px 1px;
+  border-bottom: solid 6px #8f028f;
+}
+.mail{
+  width: 1.5%;
+  position: absolute;
+  top: 35%;
+  left: 3%;
+}
+.div_footer{
+  margin-top: 30px;
+  height: 40px;
+  background-color: whitesmoke;
+}
+.small{
+  display: inline-block;
+  margin: 10px 620px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(99, 99, 99);
 }
