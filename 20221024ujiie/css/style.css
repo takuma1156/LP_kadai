@@ -56,7 +56,7 @@
   color: lightseagreen;
 }
 .news_ttl{
-  margin: 50px auto 50px 30%;
+  margin: 50px  30%;
 }
 .news{
   font-family: 'Fredoka One', cursive;
@@ -68,12 +68,11 @@
 }
 .news_main{
   list-style: none;
-  margin: 0 auto 50px 30%;
+  margin: 50px 28%;  
 }
 .news_list{
-  width: 75%;
-  padding: 20px;
-  margin: 0 0 15px 0 ;
+  width: 85%;
+  padding: 10px;
   border-top: solid 1px rgb(91, 91, 91);
 }
 .news_list:last-child{
@@ -372,8 +371,7 @@ th{
   background-color: whitesmoke;
 }
 .small{
-  display: inline-block;
-  margin: 10px 620px;
+  text-align: center;
 }
 a{
   display: block;
