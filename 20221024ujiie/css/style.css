@@ -56,7 +56,7 @@
   color: lightseagreen;
 }
 .news_ttl{
-  margin: 0 auto 50px 550px;
+  margin: 50px auto 50px 30%;
 }
 .news{
   font-family: 'Fredoka One', cursive;
@@ -68,10 +68,10 @@
 }
 .news_main{
   list-style: none;
-  margin: 0 auto 50px 520px;
+  margin: 0 auto 50px 30%;
 }
 .news_list{
-  width: 60%;
+  width: 75%;
   padding: 20px;
   margin: 0 0 15px 0 ;
   border-top: solid 1px rgb(91, 91, 91);
@@ -97,7 +97,7 @@
 }
 .about_title{
   margin: 0 auto;
-  width: 500px;
+  width: 60%;
   text-align: center;
 }
 .about_tag{
@@ -109,22 +109,24 @@
   color: slategray;
 }
 .about_main{
-  max-width: 1400px;
-  width: 100%;
-  margin: 50px 0 0 500px;
+  width: 60%;
+  margin: 50px 0 0 20%;
 }
 .about_img{
-  display: block;
-  margin: 0 160px;
   width: 50%;
   float: right;
-
 }
 .img_about{
   width: 50%;
+  margin-left: 20%;
+}
+.about_contents{
+  margin-left: 20%;
+  max-width: 30%;
+  color: slategray;
 }
 .service_title{
-  margin: 60px auto 50px 400px;
+  margin: 60px auto 50px 20%;
 }
 .service_tag{
   font-family: 'Fredoka One', cursive;
@@ -135,10 +137,10 @@
   color: slategray;
 }
 .service_main{
-  max-width: 1000px;
-  margin: 30px 0 0 400px;
+  max-width: 60%;
+  margin: 30px 0 0 20%;
   display: grid;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 50% 50%;
   grid-template-columns: 2fr 1fr 1fr;
 }
 .serviceA{
@@ -160,7 +162,7 @@
 }
 .serviceA_text{
   text-align: left;
-  margin: 0 50px;
+  margin: 0 25%;
 }
 .serviceB {
   grid-column: 2/4;
@@ -213,11 +215,11 @@
 }
 .blog{
   background-color: whitesmoke;
-  margin-top: 100px;
+  margin-top: 10%;
   padding-top: 5px;
 }
 .blog_title {
-  margin: 60px auto 50px 400px;
+  margin: 60px auto 50px 20%;
 }
 .blog_tag {
   font-family: 'Fredoka One', cursive;
@@ -229,7 +231,7 @@
 }
 .cards{
   display: flex;
-  margin: 50px auto 0px 400px;
+  margin: 50px auto 0px 20%;
 }
 .card{
   position: relative;
@@ -280,7 +282,7 @@
   font-weight: bold;
 }
 .company_title{
-  margin: 60px auto 50px 500px;
+  margin: 60px auto 50px 25%;
 }
 .company_tag {
   font-family: 'Fredoka One', cursive;
@@ -292,7 +294,7 @@
 }
 .company_table{
   color: rgb(99, 99, 99);
-  margin: 0 0 0 500px;
+  margin: 0 0 0 25%;
   width: 800px;
 }
 table{
@@ -311,7 +313,7 @@ th{
 }
 .link{
   display: flex;
-  margin: 100px 0 70px 150px;
+  margin: 8% 0 5% 0;
 }
 .link_div{
   position: relative;
